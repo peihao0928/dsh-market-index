@@ -1,0 +1,1034 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Ops Toolbox (community mirror)",
+    "zh": "运维工具集（社区镜像）"
+  },
+  "description": {
+    "en": "Operations-oriented DSH plugins mirrored from the 1024Store catalog, each checked against npm metadata.",
+    "zh": "面向系统集成与运维的 DSH 插件，选自 1024Store 社区目录，并逐条对照 npm 元数据校验。"
+  },
+  "metadata": {
+    "categories": {
+      "ssh": {
+        "title": {
+          "en": "SSH & Remote",
+          "zh": "远程与 SSH"
+        }
+      },
+      "monitor": {
+        "title": {
+          "en": "Monitoring",
+          "zh": "监控与告警"
+        }
+      },
+      "backup": {
+        "title": {
+          "en": "Backup",
+          "zh": "备份与恢复"
+        }
+      },
+      "container": {
+        "title": {
+          "en": "Containers",
+          "zh": "容器与编排"
+        }
+      },
+      "database": {
+        "title": {
+          "en": "Databases",
+          "zh": "数据库"
+        }
+      },
+      "network": {
+        "title": {
+          "en": "Network",
+          "zh": "网络"
+        }
+      },
+      "deploy": {
+        "title": {
+          "en": "Deploy",
+          "zh": "部署与自动化"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Ops Tools",
+          "zh": "运维工具"
+        }
+      }
+    },
+    "labels": {
+      "ops": {
+        "title": {
+          "en": "Operations",
+          "zh": "运维"
+        }
+      },
+      "verified": {
+        "title": {
+          "en": "Install verified",
+          "zh": "安装已验证"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh": "Star 数"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@linxin666/dsh-remote-web-ui",
+      "title": {
+        "en": "@linxin666/dsh-remote-web-ui",
+        "zh": "支持从移动设备远程访问 DSH 网页界面，随时随地控制与监控。"
+      },
+      "description": {
+        "en": "Enables remote access to the DSH web interface from mobile devices, allowing control and monitoring on the go.",
+        "zh": "支持从移动设备远程访问 DSH 网页界面，随时随地控制与监控。"
+      },
+      "author": "zhu1090093659",
+      "homepage": "https://github.com/zhu1090093659/dsh-web",
+      "repository": {
+        "url": "https://github.com/zhu1090093659/dsh-web"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 8851.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.7",
+          "publishTimestamp": 1792244936,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@cloudbase/dsh-plugin",
+      "title": {
+        "en": "@cloudbase/dsh-plugin",
+        "zh": "为AI代理提供云开发后端服务，涵盖数据库、认证和函数执行。"
+      },
+      "description": {
+        "en": "Provides CloudBase backend services including database, authentication, and function execution for AI agents.",
+        "zh": "为AI代理提供云开发后端服务，涵盖数据库、认证和函数执行。"
+      },
+      "author": "TencentCloudBase",
+      "homepage": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+      "repository": {
+        "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit"
+      },
+      "metadata": {
+        "category": "database",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "cloudbase",
+          "mcp",
+          "baas"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 1138.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1790752598,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-config-manager",
+      "title": {
+        "en": "dsh-config-manager",
+        "zh": "DSH 配置的备份、恢复、导出、导入、迁移与同步：覆盖设置、插件、MCP、技能、Agent 预设与工作区；写盘前先预览，"
+      },
+      "description": {
+        "en": "Backup, restore, export, import, migrate and sync a DSH configuration (settings, plugins, MCP servers, skills, agent presets, workspaces) with a preview before anything is written, cross-machine path remapping and an optional encrypted credential payload.",
+        "zh": "DSH 配置的备份、恢复、导出、导入、迁移与同步：覆盖设置、插件、MCP、技能、Agent 预设与工作区；写盘前先预览，跨机自动重映射路径，可选加密快照携带凭据。"
+      },
+      "author": "xiajiajun516",
+      "homepage": "https://github.com/xiajiajun516/dsh-config-manager",
+      "repository": {
+        "url": "https://github.com/xiajiajun516/dsh-config-manager"
+      },
+      "metadata": {
+        "category": "backup",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "dsh-plugin",
+          "cordis",
+          "plugin",
+          "backup"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 196.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.76",
+          "publishTimestamp": 1792112056,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-remote-web-gateway",
+      "title": {
+        "en": "dsh-remote-web-gateway",
+        "zh": "通过二维码配对从移动设备远程访问DSH，支持安全登录和设备授权。"
+      },
+      "description": {
+        "en": "Enables remote access to DSH from mobile devices via QR code pairing, with secure login and device authorization.",
+        "zh": "通过二维码配对从移动设备远程访问DSH，支持安全登录和设备授权。"
+      },
+      "author": "summer1238",
+      "homepage": "https://github.com/summer1238/dsh-remote-web-gateway",
+      "repository": {
+        "url": "https://github.com/summer1238/dsh-remote-web-gateway"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "plugin",
+          "remote-access",
+          "remote-control",
+          "mobile"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 159.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1787913105,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-watcher",
+      "title": {
+        "en": "dsh-watcher",
+        "zh": "为代理提供工作目录的只读监控视图，便于观察执行状态。"
+      },
+      "description": {
+        "en": "Read-only Agent work-path observer for DeepSeek Harness",
+        "zh": "为代理提供工作目录的只读监控视图，便于观察执行状态。"
+      },
+      "author": "aa2246740",
+      "homepage": "https://github.com/aa2246740/dsh-watcher",
+      "repository": {
+        "url": "https://github.com/aa2246740/dsh-watcher"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "watcher",
+          "agent",
+          "observability"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 117.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.8.0",
+          "publishTimestamp": 1791424357,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "local-shell-mcp-dsh",
+      "title": {
+        "en": "local-shell-mcp-dsh",
+        "zh": "让大模型能操作命令行环境，直接执行 Shell 命令与工具。"
+      },
+      "description": {
+        "en": "Enables LLM to use a cli environment. ",
+        "zh": "让大模型能操作命令行环境，直接执行 Shell 命令与工具。"
+      },
+      "author": "fwerkor",
+      "homepage": "https://github.com/fwerkor/local-shell-mcp",
+      "repository": {
+        "url": "https://github.com/fwerkor/local-shell-mcp"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [
+          "deepseek",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "remote-worker"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 91.0
+        }
+      },
+      "versions": [
+        {
+          "version": "5.1.4",
+          "publishTimestamp": 1792224212,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "huaweicloud-devkit",
+      "title": {
+        "en": "huaweicloud-devkit",
+        "zh": "提供技能、MCP工具、安全护栏和云沙箱，支持在华为云上构建、部署和运维。"
+      },
+      "description": {
+        "en": " Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails, and cloud sandbox to help AI agents build, deploy, and operate on Huawei Cloud securely.",
+        "zh": "提供技能、MCP工具、安全护栏和云沙箱，支持在华为云上构建、部署和运维。"
+      },
+      "author": "huaweicloud",
+      "homepage": "https://github.com/huaweicloud/huaweicloud-devkit",
+      "repository": {
+        "url": "https://github.com/huaweicloud/huaweicloud-devkit"
+      },
+      "metadata": {
+        "category": "deploy",
+        "keywords": [
+          "huaweicloud",
+          "huawei-cloud",
+          "agent",
+          "codex",
+          "opencode",
+          "codearts"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 66.0
+        }
+      },
+      "versions": [
+        {
+          "version": "1.1.8",
+          "publishTimestamp": 1791810168,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@hyzyn/dsh-mcp",
+      "title": {
+        "en": "@hyzyn/dsh-mcp",
+        "zh": "在界面内配置和管理 MCP 服务器连接。"
+      },
+      "description": {
+        "en": "Configures and manages MCP server connections within the interface.",
+        "zh": "在界面内配置和管理 MCP 服务器连接。"
+      },
+      "author": "hyzyn",
+      "homepage": "https://github.com/hyzyn/dsh-plugin-kit",
+      "repository": {
+        "url": "https://github.com/hyzyn/dsh-plugin-kit"
+      },
+      "metadata": {
+        "category": "network",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 50.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.5",
+          "publishTimestamp": 1792223577,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-full-remote",
+      "title": {
+        "en": "dsh-full-remote",
+        "zh": "通过公网隧道或局域网实现带令牌的远程设置和文件访问。"
+      },
+      "description": {
+        "en": "DeepSeek Harness plugin for remote access: a token-gated reverse proxy keeps settings, credentials, and file access working over public tunnels and on other devices instead of returning 403. Per-device sessions. 支持通过公网隧道或局域网，在手机等设备上远程使用 DeepSeek Harness，设置、凭据与文件访问等功能保持可用。",
+        "zh": "通过公网隧道或局域网实现带令牌的远程设置和文件访问。"
+      },
+      "author": "JUANWANG-BUAA",
+      "homepage": "https://github.com/JUANWANG-BUAA/dsh-full-remote",
+      "repository": {
+        "url": "https://github.com/JUANWANG-BUAA/dsh-full-remote"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "reverse-proxy",
+          "remote-access",
+          "tunnel"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 48.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.7",
+          "publishTimestamp": 1787313183,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@captain1275/dsh-ssh",
+      "title": {
+        "en": "@captain1275/dsh-ssh",
+        "zh": "提供 SSH 连接工具，支持在应用内进行安全远程终端会话和服务器管理。"
+      },
+      "description": {
+        "en": "Provides SSH connectivity tools, enabling secure remote terminal sessions and server management from within the application.",
+        "zh": "提供 SSH 连接工具，支持在应用内进行安全远程终端会话和服务器管理。"
+      },
+      "author": "CAPTAIN1275",
+      "homepage": "https://github.com/CAPTAIN1275/dsh-ui-web",
+      "repository": {
+        "url": "https://github.com/CAPTAIN1275/dsh-ui-web"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 42.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1791435819,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-ssh-ops",
+      "title": {
+        "en": "dsh-ssh-ops",
+        "zh": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。"
+      },
+      "description": {
+        "en": "Enables SSH operations from chat with high-risk command protection and side terminal.",
+        "zh": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。"
+      },
+      "author": "caoyiwei850",
+      "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
+      "repository": {
+        "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "plugin",
+          "ssh",
+          "terminal",
+          "xterm"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 35.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.22",
+          "publishTimestamp": 1792134678,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@zhangfengshun/dsh-remote-ssh",
+      "title": {
+        "en": "@zhangfengshun/dsh-remote-ssh",
+        "zh": "通过SSH提供远程开发，支持工作区访问、文件浏览器和集成终端。"
+      },
+      "description": {
+        "en": "DSH web plugin: VSCode Remote-SSH-like remote development (SSH, remote workspace, file explorer, integrated terminal)",
+        "zh": "通过SSH提供远程开发，支持工作区访问、文件浏览器和集成终端。"
+      },
+      "author": "ZhangFengshun",
+      "homepage": "https://github.com/ZhangFengshun/dsh-remote-ssh",
+      "repository": {
+        "url": "https://github.com/ZhangFengshun/dsh-remote-ssh"
+      },
+      "metadata": {
+        "category": "ssh",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "ssh",
+          "remote-development",
+          "remote-ssh",
+          "supercomputer"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 32.0
+        }
+      },
+      "versions": [
+        {
+          "version": "2.4.33",
+          "publishTimestamp": 1792238588,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@leetoners/dsh-ui-subagent-monitor",
+      "title": {
+        "en": "@leetoners/dsh-ui-subagent-monitor",
+        "zh": "提供子代理监控面板，实时显示代理活动和状态，增强操作可见性。"
+      },
+      "description": {
+        "en": "Provides a UI panel to monitor subagent activities and statuses within DeepSeek Harness, offering real-time visibility into agent operations.",
+        "zh": "提供子代理监控面板，实时显示代理活动和状态，增强操作可见性。"
+      },
+      "author": "Mombrane",
+      "homepage": "https://github.com/Mombrane/dsh-subagent-monitor",
+      "repository": {
+        "url": "https://github.com/Mombrane/dsh-subagent-monitor"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 29.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1789393526,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@loongsuite/dsh-plugin",
+      "title": {
+        "en": "@loongsuite/dsh-plugin",
+        "zh": "将智能体回合导出为 OpenTelemetry 追踪数据。"
+      },
+      "description": {
+        "en": "OpenTelemetry tracing for DeepSeek Harness (dsh): turns each agent turn into a GenAI span tree — steps, LLM calls with TTFT, tool executions, token usage — exported over standard OTLP to Jaeger, Grafana Tempo, SigNoz, Langfuse, or any compatible backend.",
+        "zh": "将智能体回合导出为 OpenTelemetry 追踪数据。"
+      },
+      "author": "loongsuite",
+      "homepage": "https://github.com/loongsuite/dsh-plugin",
+      "repository": {
+        "url": "https://github.com/loongsuite/dsh-plugin"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 28.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1792248121,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@xiaoyuyu6420/dsh-backup",
+      "title": {
+        "en": "@xiaoyuyu6420/dsh-backup",
+        "zh": "一键备份 DSH 用户数据：/backup 命令、定时自动备份、sha256 校验与自动轮换。"
+      },
+      "description": {
+        "en": "One-command backup of DSH user data: /backup, scheduled auto-backup, sha256 checksums and rotation.",
+        "zh": "一键备份 DSH 用户数据：/backup 命令、定时自动备份、sha256 校验与自动轮换。"
+      },
+      "author": "xiaoyuyu6420",
+      "homepage": "https://github.com/xiaoyuyu6420/dsh-backup",
+      "repository": {
+        "url": "https://github.com/xiaoyuyu6420/dsh-backup"
+      },
+      "metadata": {
+        "category": "backup",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "backup",
+          "备份",
+          "restore"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 27.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.13.4",
+          "publishTimestamp": 1791593785,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-mcp-manager-ui",
+      "title": {
+        "en": "dsh-mcp-manager-ui",
+        "zh": "提供持久化的 MCP 服务器管理界面，包含浮动按钮和设置选项卡。"
+      },
+      "description": {
+        "en": "Persistent MCP server management UI (FAB + settings tab + host Remote) for DeepSeek Harness Web",
+        "zh": "提供持久化的 MCP 服务器管理界面，包含浮动按钮和设置选项卡。"
+      },
+      "author": "Imzl-zl",
+      "homepage": "https://github.com/Imzl-zl/dsh-mcp-manager-ui",
+      "repository": {
+        "url": "https://github.com/Imzl-zl/dsh-mcp-manager-ui"
+      },
+      "metadata": {
+        "category": "network",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "mcp"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 25.0
+        }
+      },
+      "versions": [
+        {
+          "version": "1.5.5",
+          "publishTimestamp": 1791704928,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@wingsky-1/dsh-mcp-manager",
+      "title": {
+        "en": "@wingsky-1/dsh-mcp-manager",
+        "zh": "管理 MCP 服务器及其工具连接。"
+      },
+      "description": {
+        "en": "Manages Model Context Protocol servers and their tool connections.",
+        "zh": "管理 MCP 服务器及其工具连接。"
+      },
+      "author": "wingsky-1",
+      "homepage": "https://github.com/wingsky-1/dsh-plugin-hub",
+      "repository": {
+        "url": "https://github.com/wingsky-1/dsh-plugin-hub"
+      },
+      "metadata": {
+        "category": "network",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "dsh-plugin",
+          "plugin",
+          "mcp",
+          "model-context-protocol"
+        ],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 24.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1791807227,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@js2hou/dsh-mcp-manager",
+      "title": {
+        "en": "@js2hou/dsh-mcp-manager",
+        "zh": "用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP "
+      },
+      "description": {
+        "en": "Manages MCP servers visually, allowing add, remove, enable, and status checks.",
+        "zh": "用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP 服务器，支持增删、启用/停用，并实时查看连接状态。"
+      },
+      "author": "Js2Hou",
+      "homepage": "https://github.com/Js2Hou/dsh-mcp-manager",
+      "repository": {
+        "url": "https://github.com/Js2Hou/dsh-mcp-manager"
+      },
+      "metadata": {
+        "category": "network",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 22.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1787063404,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-my-guard",
+      "title": {
+        "en": "dsh-my-guard",
+        "zh": "守护插件进程，提供监控与恢复的开发者工具。"
+      },
+      "description": {
+        "en": "Guards the plugin process with monitoring and recovery utilities for developers.",
+        "zh": "守护插件进程，提供监控与恢复的开发者工具。"
+      },
+      "author": "baosfeng",
+      "homepage": "https://github.com/baosfeng/my-dsh-plugins",
+      "repository": {
+        "url": "https://github.com/baosfeng/my-dsh-plugins"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 16.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1789742895,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-my-observability",
+      "title": {
+        "en": "dsh-my-observability",
+        "zh": "为插件开发者提供监控与诊断工具，帮助跟踪插件运行状态与性能。"
+      },
+      "description": {
+        "en": "Provides observability tooling for DeepSeek Harness plugins, including monitoring and diagnostics for plugin development and runtime.",
+        "zh": "为插件开发者提供监控与诊断工具，帮助跟踪插件运行状态与性能。"
+      },
+      "author": "baosfeng",
+      "homepage": "https://github.com/baosfeng/my-dsh-plugins",
+      "repository": {
+        "url": "https://github.com/baosfeng/my-dsh-plugins"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 16.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.6",
+          "publishTimestamp": 1792229272,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-grafana",
+      "title": {
+        "en": "dsh-grafana",
+        "zh": "粘贴 Grafana 仪表盘 URL 进行对话式微调，并将调整写回仪表盘以调试可视化。"
+      },
+      "description": {
+        "en": "Paste a Grafana dashboard URL and fine-tune it through conversation with DeepSeek Harness — 贴大盘 URL，对话微调，写回 Grafana 调试可视化",
+        "zh": "粘贴 Grafana 仪表盘 URL 进行对话式微调，并将调整写回仪表盘以调试可视化。"
+      },
+      "author": "guhanfei-ai",
+      "homepage": "https://github.com/guhanfei-ai/dsh-grafana",
+      "repository": {
+        "url": "https://github.com/guhanfei-ai/dsh-grafana"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 7.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.18.1",
+          "publishTimestamp": 1792248121,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-grafana-query",
+      "title": {
+        "en": "dsh-grafana-query",
+        "zh": "面向 Grafana 的只读工具：实例健康状态、数据源列表、经数据源代理的 instant 与 range PromQL"
+      },
+      "description": {
+        "en": "Read-only Grafana tools: instance health, data source listing, instant and range PromQL queries through the data source proxy, current alert state, and provisioned alert rules. Range queries downsample to a point budget, and an explicit step that would exceed it is rejected rather than silently changed.",
+        "zh": "面向 Grafana 的只读工具：实例健康状态、数据源列表、经数据源代理的 instant 与 range PromQL 查询、当前告警状态与已配置的告警规则。range 查询会按点数预算降采样；显式指定的 step 若会超量则直接拒绝，而不是静默改写。"
+      },
+      "author": "maxmilian",
+      "homepage": "https://github.com/maxmilian/dsh-grafana-query",
+      "repository": {
+        "url": "https://github.com/maxmilian/dsh-grafana-query"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 2.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1792248121,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-observability",
+      "title": {
+        "en": "dsh-observability",
+        "zh": "通过 OpenTelemetry 协议导出遥测数据，为 DeepSeek Harness 提供可观测性。"
+      },
+      "description": {
+        "en": "Observability for DeepSeek Harness (dsh), use the OpenTelemetry Protocol",
+        "zh": "通过 OpenTelemetry 协议导出遥测数据，为 DeepSeek Harness 提供可观测性。"
+      },
+      "author": "CodePrometheus",
+      "homepage": "https://github.com/CodePrometheus/dsh-observability",
+      "repository": {
+        "url": "https://github.com/CodePrometheus/dsh-observability"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 1.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792248121,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-prometheus",
+      "title": {
+        "en": "dsh-prometheus",
+        "zh": "提供注重隐私的 Prometheus 指标和 Grafana 仪表盘，用于监控性能。"
+      },
+      "description": {
+        "en": "Privacy-conscious Prometheus metrics and Grafana dashboards for DeepSeek Harness",
+        "zh": "提供注重隐私的 Prometheus 指标和 Grafana 仪表盘，用于监控性能。"
+      },
+      "author": "xxiaoxiong",
+      "homepage": "https://github.com/xxiaoxiong/dsh-prometheus",
+      "repository": {
+        "url": "https://github.com/xxiaoxiong/dsh-prometheus"
+      },
+      "metadata": {
+        "category": "monitor",
+        "keywords": [],
+        "labels": [
+          "ops",
+          "verified"
+        ],
+        "sortKeys": {
+          "stars": 1.0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792248121,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
